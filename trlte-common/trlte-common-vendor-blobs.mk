@@ -28,12 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
-    vendor/samsung/trlte-common/proprietary/#:system/# \
-    vendor/samsung/trlte-common/proprietary/Camera:system/Camera \
-    vendor/samsung/trlte-common/proprietary/from:system/from \
-    vendor/samsung/trlte-common/proprietary/shamu,:system/shamu, \
-    vendor/samsung/trlte-common/proprietary/makes:system/makes \
-    vendor/samsung/trlte-common/proprietary/sense???:system/sense??? \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libmmcamera_isp_clf46.so:system/vendor/lib/libmmcamera_isp_clf46.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libmmcamera_isp_color_correct46.so:system/vendor/lib/libmmcamera_isp_color_correct46.so \
@@ -524,10 +518,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/trlte-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/trlte-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/trlte-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin
-    vendor/samsung/trlte-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin
-    vendor/samsung/trlte-common/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf
-    vendor/samsung/trlte-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt
-    vendor/samsung/trlte-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
-    vendor/samsung/trlte-common/proprietary/etc/wifi/nvram_net.txt_r10:system/etc/wifi/nvram_net.txt_r10
+    vendor/samsung/trlte-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/trlte-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/trlte-common/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
+    vendor/samsung/trlte-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/trlte-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/trlte-common/proprietary/etc/wifi/nvram_net.txt_r10:system/etc/wifi/nvram_net.txt_r10 \
     vendor/samsung/trlte-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
