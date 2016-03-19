@@ -19,6 +19,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trltexx/proprietary/vendor/firmware/bcm43569.hcd:system/vendor/firmware/bcm43569.hcd \
     vendor/samsung/trltexx/proprietary/vendor/firmware/bcm43569A0.hcd:system/vendor/firmware/bcm43569A0.hcd \
     vendor/samsung/trltexx/proprietary/vendor/firmware/bcm43569A1.hcd:system/vendor/firmware/bcm43569A1.hcd \
+    vendor/samsung/trltexx/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/samsung/trltexx/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/samsung/trltexx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/trltexx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/trltexx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -36,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trltexx/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/samsung/trltexx/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/trltexx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/samsung/trltexx/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/samsung/trltexx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/trltexx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/trltexx/proprietary/bin/efsks:system/bin/efsks \
